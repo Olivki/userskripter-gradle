@@ -28,7 +28,7 @@ import org.jetbrains.kotlin.gradle.targets.js.webpack.KotlinWebpack
 import org.jetbrains.kotlin.gradle.tasks.Kotlin2JsCompile
 
 private const val PACKAGE = "net.ormr.userskripter"
-private const val ENGINES_PACKAGE = "${PACKAGE}.engines"
+private const val ENGINES_PACKAGE = "${PACKAGE}.engine"
 private const val GREASE_MONKEY_PATH = "${ENGINES_PACKAGE}.greasemonkey"
 private const val TAMPER_MONKEY_PATH = "${ENGINES_PACKAGE}.tampermonkey"
 private const val UNSAFE_WINDOW_COMPATIBLE = "${ENGINES_PACKAGE}.UnsafeWindowCompatibleScriptEngine"
