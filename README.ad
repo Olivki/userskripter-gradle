@@ -1,0 +1,7 @@
+= userskripter-gradle
+
+userskripter gradle plugin for creating single-file distributable userscripts for Kotlin/JS.
+
+For documentation and use case, go to the https://github.com/Olivki/userskripter[userskripter] repository.
+
+Never written a proper Gradle plugin before, so this plugin is probably not written very well.
