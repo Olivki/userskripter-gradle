@@ -24,14 +24,14 @@ dependencies {
 }
 
 pluginBundle {
-    website = "https://github.com/Olivki/userskripter-gradle"
+    website = "https://github.com/Olivki/userskripter"
     vcsUrl = "https://github.com/Olivki/userskripter-gradle"
     tags = listOf("codegen", "userscript")
 }
 
 gradlePlugin {
     plugins {
-        create("userskripter-plugin") {
+        create("userskripter") {
             id = "net.ormr.userskripter.plugin"
             displayName = "Userskripter Gradle Plugin"
             description = project.description
