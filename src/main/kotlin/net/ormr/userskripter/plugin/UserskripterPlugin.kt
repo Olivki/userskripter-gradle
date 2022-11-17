@@ -70,7 +70,7 @@ class UserskripterPlugin : Plugin<Project> {
         val kotlinJs = project.kotlinExtension as? KotlinJsProjectExtension ?: error("Project is not Kotlin/JS")
         val userskripterDirectory = project.buildDir.resolve("userskripter")
         val generatedDirectory = project.buildDir.resolve("generated/userskripter/kotlin/")
-        val extension = project.extensions.create("userskripter", UserskripterExtension::class.java, project)
+        val extension = project.extensions.create("userskript", UserskripterExtension::class.java, project)
         val metadata = (extension as ExtensionAware).extensions.create(
             "metadata",
             UserskripterMetadataBlockExtension::class.java,
