@@ -47,6 +47,17 @@ class UserskripterPlugin : Plugin<Project> {
             "GM.setClipboard" to "GrantGMSetClipboard",
             "GM.xmlHttpRequest" to "GrantGMXmlHttpRequest",
             "unsafeWindow" to "GrantUnsafeWindow",
+            // blocking
+            "GM_setValue" to "GrantGMSetValueBlocking",
+            "GM_getValue" to "GrantGMGetValueBlocking",
+            "GM_deleteValue" to "GrantGMDeleteValueBlocking",
+            "GM_listValues" to "GrantGMListValuesBlocking",
+            "GM_getResourceUrl" to "GrantGMGetResourceUrlBlocking",
+            "GM_notification" to "GrantGMNotificationBlocking",
+            "GM_openInTab" to "GrantGMOpenInTabBlocking",
+            "GM_registerMenuCommand" to "GrantGMRegisterMenuCommandBlocking",
+            "GM_setClipboard" to "GrantGMSetClipboardBlocking",
+            "GM_xmlHttpRequest" to "GrantGMXmlHttpRequestBlocking",
         )
         private val tmGrants = mapOf(
             "GM.addStyle" to "GrantTMAddStyle",
@@ -60,6 +71,18 @@ class UserskripterPlugin : Plugin<Project> {
             "GM.getTab" to "GrantTMGetTab",
             "GM.saveTab" to "GrantTMSaveTab",
             "GM.getTabs" to "GrantTMGetTabs",
+            // blocking
+            "GM_addStyle" to "GrantTMAddStyleBlocking",
+            "GM_addElement" to "GrantTMAddElementBlocking",
+            "GM_addValueChangeListener" to "GrantTMAddValueChangeListenerBlocking",
+            "GM_removeValueChangeListener" to "GrantTMRemoveValueChangeListenerBlocking",
+            "GM_log" to "GrantTMLogBlocking",
+            "GM_getResourceText" to "GrantTMGetResourceTextBlocking",
+            "GM_unregisterMenuCommand" to "GrantTMUnregisterMenuCommandBlocking",
+            "GM_download" to "GrantTMDownloadBlocking",
+            "GM_getTab" to "GrantTMGetTabBlocking",
+            "GM_saveTab" to "GrantTMSaveTabBlocking",
+            "GM_getTabs" to "GrantTMGetTabsBlocking",
         )
     }
 
