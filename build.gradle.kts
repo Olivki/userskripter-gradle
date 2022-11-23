@@ -6,7 +6,7 @@ plugins {
 }
 
 group = "net.ormr.userskripter"
-version = "0.2.0"
+version = "0.2.1"
 description = "Gradle plugin for creating userscripts with Kotlin/JS"
 
 repositories {
@@ -24,8 +24,8 @@ dependencies {
 }
 
 pluginBundle {
-    website = "https://github.com/Olivki/userskripter"
-    vcsUrl = "https://github.com/Olivki/userskripter-gradle"
+    website = "https://github.com/userskripter/userskripter"
+    vcsUrl = "https://github.com/userskripter/userskripter-gradle"
     tags = listOf("codegen", "userscript")
 }
 
