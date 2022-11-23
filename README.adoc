@@ -2,7 +2,7 @@
 
 userskripter gradle plugin for creating single-file distributable userscripts for Kotlin/JS.
 
-For documentation and use case, go to the https://github.com/Olivki/userskripter[userskripter] repository.
+For documentation and use case, go to the https://github.com/userskripter/userskripter[userskripter] repository.
 
 Entry point is the `userskript` function, important properties are all documented.
 
